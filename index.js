@@ -18,6 +18,7 @@ function iLoveTheBeatles (number){
   var newArrayTwo = [];
   do {
     newArrayTwo[0] = `I love the Beatles!`;
+    --number
   } while{number > 15}
   return newArrayTwo
 }
